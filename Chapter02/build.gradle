@@ -16,6 +16,12 @@ dependencies {
     implementation 'io.netty:netty-all:4.1.85.Final'
 }
 
+jar {
+    manifest {
+        attributes 'Main-Class': 'org.example.EchoServer'
+    }
+}
+
 test {
     useJUnitPlatform()
 }
