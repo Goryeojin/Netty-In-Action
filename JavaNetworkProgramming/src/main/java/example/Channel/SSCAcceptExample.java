@@ -17,6 +17,7 @@ public class SSCAcceptExample {
                 Thread.sleep(1000);
             } else {
                 System.out.println(sc.socket().getRemoteSocketAddress() + "가 연결을 시도했습니다.");
+
             }
         }
     }
